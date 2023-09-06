@@ -7,7 +7,7 @@ import { AppService } from './app.service';
 @Module({
   imports: [
     MongooseModule.forRoot(
-      '',
+      'env',
     ),
     UserModule,
   ],
